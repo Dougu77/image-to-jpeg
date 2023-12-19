@@ -8,6 +8,7 @@
 
 * Convert images from different formats to JPEG.
 * Suported formats: PNG, JPG, JPEG and WEBP.
+* The instructions are all inside the program.
 
 # Download
 
