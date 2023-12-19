@@ -10,13 +10,13 @@ def folder_instructions(language):
     if language == 'PT':
         print('\n' + f'{"-" * 15}' + ' CONVERSOR DE IMAGENS ' + f'{"-" * 15}')
         print('\n>>> Converta imagens de diversos formatos diferentes para JPEG.')
-        print('>>> Formatos suportados: PNG, JPG, JPEG e WEBP')
+        print('>>> Formatos suportados: PNG, JPG, JPEG e WEBP.')
         print('>>> Coloque as imagens que deseja converter na pasta "images/original".')
         print('>>> Depois de colocar as imagens na pasta indicada, digite "OK".')
     elif language == 'EN':
         print('\n' + f'{"-" * 15}' + ' IMAGE CONVERTER ' + f'{"-" * 15}')
         print('\n>>> Convert images from different formats to JPEG.')
-        print('>>> Suported format: PNG, JPG, JPEG and WEBP')
+        print('>>> Suported formats: PNG, JPG, JPEG and WEBP.')
         print('>>> Put the images that you wish to convert in the folder "images/original".')
         print('>>> After putting the images in the right folder, type "OK".')
     while(ok != 'OK'):
