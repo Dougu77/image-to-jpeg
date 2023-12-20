@@ -2,7 +2,7 @@
 
 * Converta imagens de diversos formatos diferentes para JPEG.
 * Formatos suportados: PNG, JPG, JPEG e WEBP.
-* Todas as instruções estão dentro do próprio executável.
+* Todas as instruções estão dentro do próprio programa.
 
 # Image converter to JPEG
 
