@@ -19,7 +19,7 @@ def ask_ok():
             ok = input('OK: ').strip().upper()
 
 def convert_again():
-    print('\nSUCESSO! Deseja fazer outra conversão? | SUCESS! Do you wish to make another conversion?\n')
+    print('\nSUCESSO! Deseja fazer outra conversão? | SUCESS! Do you want to do another conversion?\n')
     again = ''
     answers = ['SIM', 'S', 'YES', 'Y', 'NAO', 'NO', 'N']
     while again not in answers:
