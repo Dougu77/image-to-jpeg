@@ -8,7 +8,7 @@ def folder_instructions():
     print('\n' + f'{"-" * 36}' + ' IMAGE CONVERTER ' + f'{"-" * 35}' + '\n')
     print('>>> Convert images from different formats to JPEG.')
     print('>>> Suported formats: PNG, JPG, JPEG and WEBP.')
-    print('>>> Put the images that you wish to convert in the folder "images/original".')
+    print('>>> Put the images that you want to convert in the folder "images/original".')
     print('>>> Don\'t put folders in "images/original", just put directly the images.')
     print('>>> After putting the images in the right folder, type "OK".')
 
