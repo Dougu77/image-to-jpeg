@@ -1,14 +1,14 @@
 # Conversor de imagens para JPEG
 
-* Converta imagens de diversos formatos diferentes para JPEG.
+* Faça converções em massa de imagens de diversos formatos diferentes para JPEG.
 * Formatos suportados: PNG, JPG, JPEG e WEBP.
 * Todas as instruções estão dentro do próprio programa.
 
 # Image converter to JPEG
 
-* Convert images from different formats to JPEG.
+* Do bulk convertions of images from different formats to JPEG.
 * Suported formats: PNG, JPG, JPEG and WEBP.
-* The instructions are all inside the program.
+* All instructions are inside the program.
 
 # Download
 
