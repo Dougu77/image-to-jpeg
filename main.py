@@ -1,29 +1,43 @@
 # Imports
 
 import os
-import functions
+from functions import *
+
+# User instructions
+
+functions.instructions.folder_instructions()
 
 # Paths
 
 folder_opening = 'images/original'
 folder_saving = 'images/final'
 
-functions.path.check_path(folder_opening)
-functions.path.check_path(folder_saving)
+# Loop
 
-# User instructions
+while True:
+    
+    # Check paths
+    
+    functions.path.check_path(folder_opening)
+    functions.path.check_path(folder_saving)
+    
+    # Check images
+    
+    functions.instructions.ask_ok()
 
-language = functions.instructions.choose_language()
-functions.instructions.folder_instructions(language)
+    # Find files
 
-# Find files
+    files = os.listdir(folder_opening)
 
-files = os.listdir(folder_opening)
+    # Convertion
 
-# Convertion
+    functions.convert.convert_to_jpeg(files, folder_opening, folder_saving)
 
-functions.convert.convert_to_jpeg(files, folder_opening, folder_saving)
+    # Convert again
 
-# The end
-
-functions.instructions.ending(language)
+    again = functions.instructions.convert_again()
+    if not again: break
+    
+    # Write line
+    
+    functions.instructions.write_line()
