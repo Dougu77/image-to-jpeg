@@ -7,7 +7,7 @@ from PIL import Image
 
 def convert_to_jpeg(files, saving_folder):
     for file in files:
-        if any(file.endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.webp', '.avif']):
+        if any(file.endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.webp']):
             path_opening = os.path.normpath(file)
             img = Image.open(path_opening).convert('RGBA')
             if has_transparent_borders(img):
