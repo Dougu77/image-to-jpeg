@@ -1,6 +1,5 @@
 # Imports
 
-import os
 from functions import *
 
 # User instructions
@@ -26,8 +25,6 @@ while True:
     functions.instructions.ask_ok()
 
     # Find files
-    
-    #files = os.listdir(folder_opening)
 
     files = functions.files.find_files(opening_folder)
 

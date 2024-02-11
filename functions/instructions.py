@@ -1,12 +1,12 @@
 def folder_instructions():
     print('\n' + f'{"-" * 36}' + ' CONVERSOR DE IMAGENS ' + f'{"-" * 35}' + '\n')
     print('>>> Converta imagens de diversos formatos diferentes para JPEG.')
-    print('>>> Formatos suportados: PNG, JPG, JPEG e WEBP.')
+    print('>>> Formatos suportados: PNG, JPG, JPEG, WEBP e AVIF.')
     print('>>> Coloque as pastas com as imagens que deseja converter na pasta "images/original".')
     print('>>> Depois de colocar as pastas no local indicado, digite "OK".')
     print('\n' + f'{"-" * 38}' + ' IMAGE CONVERTER ' + f'{"-" * 38}' + '\n')
     print('>>> Convert images from different formats to JPEG.')
-    print('>>> Suported formats: PNG, JPG, JPEG and WEBP.')
+    print('>>> Suported formats: PNG, JPG, JPEG, WEBP and AVIF.')
     print('>>> Put the folders with the images that you want to convert in the folder "images/original".')
     print('>>> After putting the folders in the right place, type "OK".')
 
