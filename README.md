@@ -12,4 +12,4 @@
 
 # Download
 
-* [EXE](https://github.com/Dougu77/image-to-jpeg/blob/main/Image%20to%20JPEG.exe)
+* [EXE](https://raw.githubusercontent.com/Dougu77/image-to-jpeg/blob/main/Image%20to%20JPEG.exe)
